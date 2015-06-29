@@ -1,0 +1,24 @@
+{
+  "name": "kquiz",
+  "version": "0.1.0",
+  "description": "Quiz for matching names to pictures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jowellv/KQuiz.git"
+  },
+  "author": "Jowell Villasin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jowellv/KQuiz/issues"
+  },
+  "homepage": "https://github.com/jowellv/KQuiz",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "grunt": "^0.4.5",
+    "mocha": "^2.2.5"
+  }
+}
