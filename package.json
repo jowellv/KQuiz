@@ -18,7 +18,12 @@
   "homepage": "https://github.com/jowellv/KQuiz",
   "devDependencies": {
     "chai": "^3.0.0",
-    "grunt": "^0.4.5",
-    "mocha": "^2.2.5"
+    "mocha": "^2.2.5",
+    "chai-http": "^1.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.13.1",
+    "express": "^4.13.0",
+    "mongoose": "^4.0.6"
   }
 }
