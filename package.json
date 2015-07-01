@@ -4,7 +4,7 @@
   "description": "Quiz for matching names to pictures",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/grunt-cli/bin/grunt test"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,11 @@
   "homepage": "https://github.com/jowellv/KQuiz",
   "devDependencies": {
     "chai": "^3.0.0",
-    "mocha": "^2.2.5",
-    "chai-http": "^1.0.0"
+    "chai-http": "^1.0.0",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-test": "^0.12.7",
+    "mocha": "^2.2.5"
   },
   "dependencies": {
     "body-parser": "^1.13.1",
